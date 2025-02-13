@@ -14,3 +14,6 @@ try:
         letter_grade = "F"
 
     print("Your grade is:", letter_grade)  # Correct indentation
+
+except ValueError:
+    print("Invalid input. Please enter an integer.")
